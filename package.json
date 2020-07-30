@@ -20,7 +20,7 @@
     "npm": ">= 3.0.0"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "nodemon scripts/start.js",
     "start:debug": "node-debug scripts/start.js",
     "test": "node_modules/mocha/bin/mocha test/*.spec.js --timeout 5000",
     "test:int": "node_modules/mocha/bin/mocha test/integration.js --timeout 5000",
@@ -61,7 +61,7 @@
     "chai-as-promised": "~5.2.0",
     "mocha": "~2.3.4",
     "node-env-file": "~0.1.8",
-    "nodemon": "^1.8.1",
+    "nodemon": "^1.19.4",
     "sinon": "~1.17.3",
     "sinon-chai": "~2.8.0",
     "standard": "~8.6.0"
