@@ -7,7 +7,7 @@ try {
 } finally {
   var merchantAPI = require('../index.js');
   merchantAPI.start({
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 5000,
     bind: process.env.BIND || '0.0.0.0'
   });
   if (process.env.RPC) {
